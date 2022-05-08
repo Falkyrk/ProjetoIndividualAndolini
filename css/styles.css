@@ -16,6 +16,9 @@ a{
     color: white;
     text-decoration: none;
 }
+header nav{
+    position: left;
+}
 
 header img{
     width: 300px;
@@ -54,3 +57,31 @@ footer img{
     width: 20%;
     height: 20%;
 }
+
+.container_slideshow {
+    width: 890px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  .container_slideshow .slideshow_imagem {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+
+
+  #mapa {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #mapa iframe {
+    width: 100%;
+    height: 500px;
+  }
